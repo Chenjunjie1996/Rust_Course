@@ -1,6 +1,9 @@
 #![allow[unused,warnings]]
 use std::collections::Hashmap;
 use std::process::Command;
+use main;
+
+
 
 fn add_kit_version(chemistry: String) -> String {
     let kit_list = vec![
